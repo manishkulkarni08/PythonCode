@@ -1,3 +1,4 @@
+#Check the sorted array
 def check_array_sorted(array:list)->bool:
     current_element = array[0]
     for i in range(1,len(array)):
